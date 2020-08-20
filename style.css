@@ -1,0 +1,218 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: #EE474F;
+}
+
+.navbar-brand {
+  color: #fff!important;
+  font-weight: 600!important;
+}
+
+.nav-link {
+  color: #fff!important;
+  font-weight: 600!important;
+}
+
+.nav-link:hover {
+  color: yellow!important;
+  transition: .5s;
+}
+
+.nav-item a {
+  margin-left: 40px;
+}
+
+.full-body {
+  background: url("images/bannerimg-01.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-text h3 {
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+  margin-top: 240px;
+  color: yellow;
+}
+
+.banner-text h5 {
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  font-size: 50px;
+}
+
+.sec1-text {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.sec1-text h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: red;
+  font-weight: 900;
+}
+
+.sec1-text p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: grey;
+}
+
+.sec1-img {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.section1 h2 {
+  margin-top: 50px;
+  color: red;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section2 {
+  background: #F7F7F7;
+}
+
+.sec-about {
+}
+
+.contact {
+  background-color: #00E78E;
+  margin-top: 50px;
+}
+
+.contact h4 {
+  margin-top: 50px;
+}
+
+.contact h3 {
+  color: black;
+}
+
+.sec2-header h3 {
+  color: #00E78E;
+  ;
+	margin-top: 70px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cards {
+  margin-top: 50px;
+}
+
+.card {
+  margin-bottom: 50px;
+  border-radius: 5%;
+  box-shadow: 7px 10px 155px -78px rgba(15,14,14,1);
+  cursor: pointer;
+}
+
+.card-body i {
+  font-size: 60px;
+  color: red;
+  margin-left: 70px;
+  padding: 20px;
+}
+
+.contact-text h4 {
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-text h3 {
+  color: #000;
+  font-weight: 900;
+}
+
+.contact-text p {
+  font-weight: 800;
+  font-size: 20px;
+  color: #00C7CF;
+}
+
+.contact-text h6 {
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: justify;
+}
+
+.contact a {
+  color: blue;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.team {
+  text-align: center;
+}
+
+.team a {
+  text-decoration-line: none;
+  color: #00C7CF;
+}
+
+.team h1 {
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  color: red;
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar-brand {
+    margin-right: 0px;
+  }
+
+  .sec1-img {
+    height: 10px;
+    width: 10px;
+    margin-left: 100px;
+  }
+
+  .sec-about {
+    font-size: 35px!important;
+  }
+
+  .sec1-text {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .sec1-text h1 {
+    font-size: 30px;
+  }
+
+  .sec1-text p {
+    font-size: 13px;
+  }
+
+  .sec {
+    background: #00E78E;
+    margin-top: 10px;
+    height: 400px;
+    margin-bottom: 00px;
+  }
+
+  .card {
+    margin-left: 20px;
+  }
+
+  .banner-text h3 {
+    font-size: 25px;
+  }
+
+  .banner-text h5 {
+    font-size: 35px;
+    font-weight: 700;
+  }
+}
